@@ -1,16 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 import numpy as np
 import cv2
-
-
-# In[ ]:
-
-
 
 cap = cv2.VideoCapture(0)
 
@@ -53,10 +45,5 @@ while True:
 
 cv2.destroyAllWindows()
 cap.release()
-
-
-# In[ ]:
-
-
 
 
